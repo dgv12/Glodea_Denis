@@ -53,13 +53,11 @@ public class HomeworkNr2 {
             }
         }
 
-        float sum = 0;
-        int i = 1;
-        while (i <= 97) {
-            sum += (float) i / (i + 2);
-            i += 2;
+        float sumaa = 0;
+        for (float i = 1; i <=97; i+=2) {
+            sumaa += ( i / (i + 2));
         }
-        System.out.println(sum);
+        System.out.println("Total = " + sumaa);
 
     }
 
