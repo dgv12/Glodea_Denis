@@ -12,7 +12,7 @@ public class Circle {
         public static void main(String[] args) {
         Circle alpha = new Circle(3);
         double area = alpha.calculateArea();
-        System.out.println(area);
+        System.out.println("Aria = " + area);
 
         }
     }
