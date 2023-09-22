@@ -2,7 +2,7 @@ package homework_4;
 
 public class homeWork4 {
     public static void main(String[] args) {
-        int[] numbers = new int[10];
+        int[] numbers = new int[100];
         for (int index = 0; index != numbers.length; index++) {
             numbers[index] = index;
             System.out.println(numbers[index]);
@@ -18,8 +18,6 @@ public class homeWork4 {
         }
         System.out.println("Suma para = " + suma);
         System.out.println("Suma imparara inmultita = " + multiply);
-
-
 
         int[] copyNumbers = new int[numbers.length];
         for (int index = 0; index < numbers.length; index++) {
